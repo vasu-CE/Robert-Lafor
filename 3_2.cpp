@@ -11,7 +11,6 @@ int main()
     switch(chose)
     {
         case 1:
-           
             cout << "Enter temperature in Fahrenhit : ";
             cin >> fer;
             cel=(fer-32)*(5.0/9);
