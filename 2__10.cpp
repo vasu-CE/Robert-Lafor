@@ -14,6 +14,6 @@ int main()
     cin >> pence;
     pence=pence+shill*12;
     pointpo=(float)pence/240;
-    cout << "Decimal Pounda = " << setprecision(3) << pound+pointpo;
+    cout << "Decimal Pound = " << setprecision(3) << pound+pointpo;
 
 }
