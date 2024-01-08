@@ -6,7 +6,7 @@ int main()
     int i,year=0;
     float intrate,famo,amo,temp=0;
     
-    cout << "Enter amount : ";
+    cout << "Enter initial amount : ";
     cin >> amo;
     cout << "Enter interest rate : ";
     cin >> intrate;
@@ -19,6 +19,6 @@ int main()
         year++;
         temp=amo;
     }
-    cout << year-1;
+    cout << year;
     return 0;
 }
